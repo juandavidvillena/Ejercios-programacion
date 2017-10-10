@@ -1,14 +1,8 @@
-/**
-*Tema 3 Ejercicios Introducir Texto
-*Juan David Villena Gil
-*Realiza un conversor de pesetas a euros. La cantidad de pesetas que se quiere
-convertir debe ser introducida por teclado.
-*/
-  public class ejercicio3 {
+public class ejercicio3 {
     public static void main(String[] args) {
       String linea;
       
-      System.out.print("Introduzca el primer numero ");
+      System.out.print("Introduzca el primer numero de pesetas que quiera convertir a euros: ");
       linea = System.console().readLine();
       int pesetas;
       pesetas = Integer.parseInt( linea );
